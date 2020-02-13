@@ -36,7 +36,7 @@ func main() {
 	// Setup
 	alice := human{"Alice", 56}
 	bob := human{"Bob", 9}
-	missile := dog{"Missile", &bob, 56}
+	missile := dog{"Missile", &bob, 2}
 	entryList := []entry{alice, bob, missile}
 
 	lookup := make(map[string]entry)
